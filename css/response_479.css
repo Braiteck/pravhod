@@ -1,0 +1,168 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo,
+    header .logo img
+    {
+        height: 32px;
+    }
+
+
+    header .contacts .messngers
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*------------------
+        Product head
+    ------------------*/
+    .product_head
+    {
+        padding: 50px 0 156px;
+    }
+
+
+    .product_head .product_name
+    {
+        font-size: 40px;
+        line-height: 46px;
+
+        letter-spacing: 2px;
+    }
+
+
+    .product_head .product_desc
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .product_head .pluses .row
+    {
+        margin-left: 0;
+    }
+
+    .product_head .pluses .row > *
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+
+    .product_head .thumbs .thumb
+    {
+        width: 80px;
+        height: 46px;
+    }
+
+
+
+    /*-----------------
+        Constructor
+    -----------------*/
+    .constructor .finishing
+    {
+        width: 100%;
+    }
+
+    .constructor .finishing + .finishing
+    {
+        margin-top: 40px;
+    }
+
+
+    .constructor .buy .buy_btn
+    {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+
+    .constructor .sizes .vals,
+    .constructor .opening,
+    .constructor .pluses
+    {
+        margin-left: 0;
+    }
+
+    .constructor .sizes .vals > *,
+    .constructor .opening > *,
+    .constructor .pluses > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*----------------
+        Guarantees
+    ----------------*/
+    .guarantees .row > *
+    {
+        width: 280px;
+    }
+
+
+
+    /*---------------
+        Showrooms
+    ---------------*/
+    .showrooms .data .item
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .col_left
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    footer .logo img
+    {
+        height: 40px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    footer .links
+    {
+        width: calc(50% - 12px);
+        margin-top: 28px;
+
+        text-align: center;
+    }
+}

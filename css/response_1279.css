@@ -1,0 +1,574 @@
+@media print, (max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 26px;
+    }
+
+
+    .cont
+    {
+        padding: 0 24px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs button
+    {
+        min-width: 100px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 20px 0;
+    }
+
+
+    header .logo,
+    header .logo img
+    {
+        height: 40px;
+    }
+
+
+    header .menu
+    {
+        margin-left: 40px;
+    }
+
+    header .menu .item + .item
+    {
+        margin-left: 22px;
+    }
+
+
+    header .contacts .messngers
+    {
+        margin-left: 12px;
+    }
+
+    header .contacts .messngers a + a
+    {
+        margin-left: 8px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .desc
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        margin-top: 16px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns
+    {
+        --form_columns_offset: 24px;
+    }
+
+
+
+    /*------------------
+        Product head
+    ------------------*/
+    .product_head
+    {
+        padding: 100px 0 220px;
+    }
+
+
+    .product_head .back_link a
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .product_head .product_name
+    {
+        font-size: 56px;
+        line-height: 66px;
+    }
+
+
+    .product_head .product_desc
+    {
+        font-size: 20px;
+        line-height: 28px;
+
+        width: 472px;
+        margin-top: 12px;
+    }
+
+
+    .product_head .pluses
+    {
+        margin-top: 24px;
+    }
+
+    .product_head .pluses .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .product_head .pluses .row > *
+    {
+        width: 272px;
+        max-width: calc(100% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .product_head .pluses .item
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        padding-left: 36px;
+    }
+
+    .product_head .pluses .name
+    {
+        font-size: 17px;
+        line-height: 23px;
+
+        margin-bottom: 8px;
+    }
+
+
+
+    .product_head .thumbs
+    {
+        right: 24px;
+        bottom: 24px;
+
+        margin-right: 0;
+    }
+
+
+    .product_head .thumbs .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .product_head .thumbs .row > *
+    {
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .product_head .thumbs .thumb
+    {
+        width: 140px;
+        height: 80px;
+    }
+
+
+
+    .product_head .btns
+    {
+        bottom: 24px;
+        left: 24px;
+
+        margin-left: 0;
+    }
+
+    .product_head .btns > * + *
+    {
+        margin-top: 16px;
+    }
+
+    .product_head .btns .btn
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+    .product_head .btns .message_btn .icon
+    {
+        width: 27px;
+        height: 23px;
+    }
+
+    .product_head .btns .phone_btn .icon
+    {
+        width: 31px;
+        height: 31px;
+    }
+
+
+
+    /*-----------------
+        Constructor
+    -----------------*/
+    .constructor .finishing
+    {
+        width: 218px;
+    }
+
+
+    .constructor .data
+    {
+        width: calc(100% - 484px);
+    }
+
+
+    .constructor .buy
+    {
+        padding: 8px 12px;
+    }
+
+
+    .constructor .buy .price
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .constructor .buy .price b
+    {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+
+    .constructor .buy .set
+    {
+        font-size: 16px;
+        line-height: 20px;
+
+        margin-top: 0;
+    }
+
+
+    .constructor .buy .buy_btn
+    {
+        width: 220px;
+        padding: 12px;
+    }
+
+
+    .constructor .sizes .title
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .constructor .sizes .vals
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .constructor .sizes .vals > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .constructor .opening .title
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .constructor .opening
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .constructor .opening > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .constructor .opening .vals
+    {
+        margin-left: -10px;
+    }
+
+    .constructor .opening .vals label
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        width: calc(50% - 10px);
+        margin-left: 10px;
+        padding: 11px;
+    }
+
+
+    .constructor .description
+    {
+        line-height: 22px;
+    }
+
+
+    .constructor .pluses
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .constructor .pluses > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+
+
+    /*------------------
+        Complete set
+    ------------------*/
+    .complete_set .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .complete_set .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .complete_set .set .head
+    {
+        padding: 19px 19px 7px;
+    }
+
+
+    .complete_set .set_name
+    {
+        letter-spacing: 0;
+    }
+
+
+    .complete_set .purpose
+    {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+
+    .complete_set .price
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        padding: 8px 19px;
+    }
+
+    .complete_set .price b
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+
+    .complete_set .info
+    {
+        padding: 16px 19px 0;
+    }
+
+
+    .complete_set .features .item
+    {
+        font-size: 14px;
+    }
+
+    .complete_set .features .item + .item
+    {
+        margin-top: 12px;
+    }
+
+
+    .complete_set .features .tooltip .text
+    {
+        top: 50%;
+        right: calc(100% + 24px);
+        left: auto;
+
+        transform: translateY(-50%);
+    }
+
+    .complete_set .features .tooltip:hover .text
+    {
+        top: 50%;
+        right: calc(100% + 8px);
+    }
+
+
+    .complete_set .set .product
+    {
+        width: calc(100% + 38px);
+        margin-right: -19px;
+        margin-left: -19px;
+        padding: 4px 12px;
+    }
+
+    .complete_set .set .product .name
+    {
+        line-height: 17px;
+    }
+
+    .complete_set .set .product .link
+    {
+        font-size: 15px;
+        line-height: 19px;
+
+        margin-top: 4px;
+    }
+
+    .complete_set .set .product .price
+    {
+        font-size: 14px;
+    }
+
+
+    .complete_set .progressbars
+    {
+        padding: 20px 19px;
+    }
+
+    .complete_set .progressbars .name
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .complete_set .order
+    {
+        padding: 20px 19px 19px;
+    }
+
+    .complete_set .order .btn
+    {
+        padding: 12px;
+    }
+
+
+
+    /*----------------
+        Guarantees
+    ----------------*/
+    .guarantees .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+        padding-top: 20px;
+    }
+
+    .guarantees .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .guarantees .item
+    {
+        line-height: 23px;
+    }
+
+    .guarantees .item .icon
+    {
+        height: 72px;
+        margin-bottom: 20px;
+    }
+
+    .guarantees .item .name
+    {
+        font-size: 17px;
+    }
+
+
+
+    .showrooms .map_wrap
+    {
+        width: calc(50% + 24px);
+        min-height: 550px;
+        margin-right: -24px;
+    }
+
+
+
+    /*---------------
+        Showrooms
+    ---------------*/
+    .showrooms .data .row
+    {
+        margin-bottom: -32px;
+        margin-left: -24px;
+    }
+
+    .showrooms .data .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 32px;
+        margin-left: 24px;
+    }
+
+
+    .showrooms .data .item .time,
+    .showrooms .data .item .contacts
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding-bottom: 40px;
+    }
+}

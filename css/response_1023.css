@@ -1,0 +1,196 @@
+@media print, (max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        position: relative;
+        z-index: 90;
+    }
+
+
+    header .menu
+    {
+        position: absolute;
+        top: 100%;
+        right: 0;
+
+        display: block;
+
+        width: 224px;
+        margin: 0;
+        padding: 0 20px 20px;
+
+        transition: transform .2s linear;
+        transform: translateX(100%);
+        text-align: right;
+
+        background: #fff;
+    }
+
+    header .menu.show
+    {
+        transform: translateX(0);
+    }
+
+
+    header .menu .item + .item
+    {
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+
+    header .mob_menu_btn
+    {
+        display: flex;
+    }
+
+
+
+    /*-----------------
+        Constructor
+    -----------------*/
+    .constructor .finishing
+    {
+        width: calc(50% - 12px);
+    }
+
+
+    .constructor .data
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+
+    .complete_set .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px;
+        padding: 0 24px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .complete_set .row::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .complete_set .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .complete_set .row > *
+    {
+        display: inline-block;
+
+        width: 300px;
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .complete_set .row > * + *
+    {
+        margin-left: 20px;
+    }
+
+
+
+    /*----------------
+        Guarantees
+    ----------------*/
+    .guarantees .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px;
+        padding: 16px 24px 0;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .guarantees .row::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .guarantees .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .guarantees .row > *
+    {
+        display: inline-block;
+
+        width: 300px;
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .guarantees .row > * + *
+    {
+        margin-left: 20px;
+    }
+
+
+
+    /*---------------
+        Showrooms
+    ---------------*/
+    .showrooms .data
+    {
+        width: 100%;
+        padding: 50px 0;
+    }
+
+
+    .showrooms .map_wrap
+    {
+        width: calc(100% + 48px);
+        min-height: 450px;
+        margin-left: -24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+}
