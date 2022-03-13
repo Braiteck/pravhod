@@ -2312,6 +2312,12 @@ header .mob_menu_btn.active span:after
 }
 
 
+.ymaps-layers-pane
+{
+    -webkit-filter: grayscale(100%);
+}
+
+
 
 /*------------
     Footer
