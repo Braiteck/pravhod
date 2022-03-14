@@ -24,6 +24,7 @@
 		<!-- Подключение файлов стилей -->
 		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
 		<link rel="stylesheet" href="css/ion.rangeSlider.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
 		<link rel="stylesheet" href="css/styles.css" async>
 
 		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)" async>
@@ -270,7 +271,7 @@
 										<div class="period">Срок изготовления: <b>от 30 дней</b></div>
 									</div>
 
-									<button class="buy_btn">ЗАКАЗАТЬ ЗАМЕР</button>
+									<button class="buy_btn modal_btn" data-content="#order_modal">ЗАКАЗАТЬ ЗАМЕР</button>
 								</div>
 
 								<div class="sizes">
@@ -548,7 +549,7 @@
 								</div>
 
 								<div class="order">
-									<button class="btn">ЗАКАЗАТЬ ЗАМЕР</button>
+									<button class="btn modal_btn" data-content="#order_modal">ЗАКАЗАТЬ ЗАМЕР</button>
 								</div>
 							</div>
 
@@ -738,7 +739,7 @@
 								</div>
 
 								<div class="order">
-									<button class="btn">ЗАКАЗАТЬ ЗАМЕР</button>
+									<button class="btn modal_btn" data-content="#order_modal">ЗАКАЗАТЬ ЗАМЕР</button>
 								</div>
 							</div>
 
@@ -928,7 +929,7 @@
 								</div>
 
 								<div class="order">
-									<button class="btn">ЗАКАЗАТЬ ЗАМЕР</button>
+									<button class="btn modal_btn" data-content="#order_modal">ЗАКАЗАТЬ ЗАМЕР</button>
 								</div>
 							</div>
 						</div>
@@ -1118,11 +1119,37 @@
 		</div>
 
 
+		<section class="modal" id="order_modal">
+			<div class="modal_title">Оформление заказа</div>
+
+			<div class="modal_data">
+				<form action="" class="form">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input" placeholder="Ваше имя">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="tel" name="" value="" class="input" placeholder="+7 (___) ___-__-__">
+						</div>
+					</div>
+
+					<div class="submit">
+						<button type="submit" class="submit_btn">ЗАКАЗАТЬ</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+
 		<!-- Подключение javascript файлов -->
 		<script src="js/jquery-3.5.0.min.js"></script>
 		<script src="js/swiper-bundle.min.js"></script>
 		<script src="js/inputmask.min.js"></script>
 		<script src="js/ion.rangeSlider.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
 		<script src="js/functions.js"></script>
 		<script src="js/scripts.js"></script>
 

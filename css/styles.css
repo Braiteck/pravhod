@@ -2461,3 +2461,35 @@ footer .contacts .info
 
     text-align: right;
 }
+
+
+
+/*-----------
+    PopUp
+-----------*/
+.modal
+{
+    color: var(--text_color);
+
+    display: none;
+    visibility: visible !important;
+
+    width: 440px;
+    max-width: 100%;
+    padding: 40px 50px;
+
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+
+
+.modal_title
+{
+    font-size: var(--font_size_title);
+    font-weight: 600;
+    line-height: calc(var(--font_size_title) + 8px);
+
+    margin-bottom: 24px;
+
+    text-align: center;
+}

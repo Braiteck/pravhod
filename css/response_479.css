@@ -165,4 +165,14 @@
 
         text-align: center;
     }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 40px 32px;
+    }
 }
