@@ -395,7 +395,7 @@
     }
 
 
-    .complete_set .price
+    .complete_set .set > .price
     {
         font-size: 16px;
         line-height: 22px;
@@ -403,7 +403,7 @@
         padding: 8px 19px;
     }
 
-    .complete_set .price b
+    .complete_set .set > .price b
     {
         font-size: 22px;
         line-height: 26px;

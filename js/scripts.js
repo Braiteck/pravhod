@@ -64,6 +64,20 @@ $(() => {
 	})
 
 
+	// Выбор замка
+	$('.complete_set .set .product .price').click(function (e) {
+		e.preventDefault()
+
+		let product = $(this).closest('.product'),
+			set = $(this).closest('.set')
+
+		$('.complete_set .set .product').removeClass('active')
+		product.addClass('active')
+
+		set.find('> .price b').text((set.find('> .price').data('price') + $(this).data('price')).toLocaleString())
+	})
+
+
 	// Моб. меню
 	$('header .mob_menu_btn').click((e) => {
 		e.preventDefault()

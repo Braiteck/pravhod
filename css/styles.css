@@ -1802,7 +1802,7 @@ header .mob_menu_btn.active span:after
 }
 
 
-.complete_set .price
+.complete_set .set > .price
 {
     font-size: 18px;
     font-weight: 300;
@@ -1813,7 +1813,7 @@ header .mob_menu_btn.active span:after
     background: #f9f9f9;
 }
 
-.complete_set .price b
+.complete_set .set > .price b
 {
     font-size: 24px;
     font-weight: 600;
@@ -1972,8 +1972,11 @@ header .mob_menu_btn.active span:after
     width: calc(100% + 28px);
     margin-right: -16px;
     margin-left: -12px;
-    padding: 5px 4px 5px 12px;
+    padding: 4px 3px 4px 11px;
 
+    transition: border-color .2s linear;
+
+    border: 1px solid transparent;
     background: #fff;
 
     justify-content: space-between;
@@ -2051,6 +2054,7 @@ header .mob_menu_btn.active span:after
 
     padding: 7px;
 
+    cursor: pointer;
     text-align: center;
     white-space: nowrap;
 
@@ -2060,6 +2064,12 @@ header .mob_menu_btn.active span:after
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
+}
+
+
+.complete_set .set .product.active
+{
+    border-color: var(--text_color);
 }
 
 
