@@ -53,6 +53,17 @@ $(() => {
 	}).data('ionRangeSlider')
 
 
+	// Характеристики в комплекте
+	$('.complete_set .info .spoler_btn').click(function (e) {
+		e.preventDefault()
+
+		let features = $(this).closest('.features')
+
+		$(this).toggleClass('active')
+		features.find('.hide').slideToggle(300)
+	})
+
+
 	// Моб. меню
 	$('header .mob_menu_btn').click((e) => {
 		e.preventDefault()

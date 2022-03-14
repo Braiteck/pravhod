@@ -190,14 +190,14 @@ input[type=number]
 
 ::selection
 {
-    color: #fff;
+    color: #564f48;
 
     background: #ffd705;
 }
 
 ::-moz-selection
 {
-    color: #fff;
+    color: #564f48;
 
     background: #ffd705;
 }
@@ -1840,6 +1840,14 @@ header .mob_menu_btn.active span:after
     flex-wrap: nowrap;
 }
 
+
+.complete_set .features .hide
+{
+    display: none;
+}
+
+.complete_set .features .hide,
+.complete_set .features .hide .item + .item,
 .complete_set .features .item + .item
 {
     margin-top: 15px;
@@ -2055,7 +2063,7 @@ header .mob_menu_btn.active span:after
 }
 
 
-.complete_set .info .all_link
+.complete_set .info .spoler_btn
 {
     font-weight: 600;
     line-height: 20px;
@@ -2063,14 +2071,15 @@ header .mob_menu_btn.active span:after
     margin-top: 15px;
 }
 
-.complete_set .info .all_link a
+.complete_set .info .spoler_btn span + span,
+.complete_set .info .spoler_btn.active span
 {
-    color: currentColor;
+    display: none;
+}
 
-    display: inline-block;
-
-    vertical-align: top;
-    text-decoration: none;
+.complete_set .info .spoler_btn.active span + span
+{
+    display: inline;
 }
 
 
